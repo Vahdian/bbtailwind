@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="flex p-3 bg-white border-b border-gray-200 items-center">
       <div className="w-6/12">
-        <img src={voodgray} className="h-10git  ml-4"></img>
+        <img src={voodgray} className="h-10 ml-4"></img>
       </div>
       <div className="flex justify-around w-6/12 text-gray-600 px-14 items-center">
         <NavLink to="/home" className=" hover:text-yellow-500">
