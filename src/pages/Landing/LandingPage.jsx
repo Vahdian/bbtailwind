@@ -8,7 +8,7 @@ import "./LandingPage.css";
 export default function LandingPage() {
   return (
     <div className="flex justify-center items-center flex-col animation">
-      <h1 className="sm:text-9xl text-gray-600 sm:w-4/6 mt-60 sm:mt-40 text-center text-6xl font-bold p-10 relative">
+      <h1 className="sm:text-9xl text-gray-600 sm:w-4/6 mt-48 sm:mt-60 text-center text-6xl font-bold p-10 relative">
         WELCOME TO MY VOOD<span className="text-yellow-400">.</span>
       </h1>
       <div className="sm:relative absolute bottom-0 flex p-2">

@@ -57,7 +57,7 @@ export default function Navbar() {
       <div
         className={
           menuChange
-            ? "flex absolute w-full h-full bg-white z-50 flex flex-col text-6xl items-center p-16 text-center justify-between animation-fast font-bold  text-gray-600"
+            ? "flex fixed w-full h-full bg-white z-50 flex flex-col text-6xl items-center p-16 text-center justify-between animation-fast font-bold  text-gray-600"
             : "hidden"
         }
       >
