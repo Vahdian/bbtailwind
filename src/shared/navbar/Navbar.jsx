@@ -19,6 +19,9 @@ export default function Navbar() {
       console.log("menu is hidden");
     }
   }
+  function testFx(){
+    console.log("Test")
+  }
   return (
     <div>
       <div className="flex p-3 bg-white border-b border-gray-200 items-center hidden sm:flex">
@@ -32,7 +35,7 @@ export default function Navbar() {
           <NavLink to="/about-us" className=" hover:text-yellow-500">
             ABOUT US
           </NavLink>
-          <NavLink to="/myvood-app" className=" hover:text-yellow-500">
+          <NavLink to="/app" className=" hover:text-yellow-500">
             APP
           </NavLink>
           <NavLink to="/vegan-lifestyle" className=" hover:text-yellow-500">
@@ -64,19 +67,20 @@ export default function Navbar() {
           onClick={() => openMenu()}
           alt="vegan menu"
         ></img>
-        <NavLink to="/home" className=" hover:text-yellow-500">
-          HOME<span className="text-yellow-400">.</span>
+        <NavLink to="/home" className=" hover:text-yellow-500" onClick={()=> openMenu()}>
+          HOME<span className="text-yellow-400"
+        >.</span>
         </NavLink>
-        <NavLink to="/about-us" className=" hover:text-yellow-500">
+        <NavLink to="/about-us" className=" hover:text-yellow-500" onClick={()=> openMenu()}>
           ABOUT US<span className="text-yellow-400">.</span>
         </NavLink>
-        <NavLink to="/myvood-app" className=" hover:text-yellow-500">
+        <NavLink to="/app" className=" hover:text-yellow-500" onClick={()=> openMenu()}>
           APP<span className="text-yellow-400">.</span>
         </NavLink>
-        <NavLink to="/vegan-lifestyle" className=" hover:text-yellow-500">
+        <NavLink to="/vegan-lifestyle" className=" hover:text-yellow-500" onClick={()=> openMenu()}>
           VEGAN LIFESTYLE<span className="text-yellow-400">.</span>
         </NavLink>
-        <NavLink to="/contact" className=" hover:text-yellow-500">
+        <NavLink to="/contact" className=" hover:text-yellow-500" onClick={()=> openMenu()}>
           CONTACT<span className="text-yellow-400">.</span>
         </NavLink>
       </div>
