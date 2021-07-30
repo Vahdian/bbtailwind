@@ -31,6 +31,9 @@ export default function LandingPage() {
           <SiLinkedin color="#4B5563"></SiLinkedin>
         </a>
       </div>
+      <a className="fixed bottom-40" href="mailto:info@myvood.co.uk">
+        info@myvood.co.uk
+      </a>
     </div>
   );
 }

@@ -4,6 +4,9 @@ import LandingPage from "../../pages/Landing/LandingPage";
 import WelcomePage from "../../pages/Welcome/WelcomePage";
 import Navbar from "../../shared/navbar/Navbar";
 import Veganlifestyle from "../../pages/veganlifestyle/Veganlifestyle";
+import AppPage from "../../pages/appPage/AppPage";
+import Contact from "../../pages/contact/Contact";
+import AboutUs from "../../pages/aboutUs/AboutUs";
 
 export default function Routes() {
   return (
@@ -15,9 +18,11 @@ export default function Routes() {
         </Route>
         <Route path="/about-us">
           <Navbar></Navbar>
+          <AboutUs></AboutUs>
         </Route>
         <Route path="/app">
           <Navbar></Navbar>
+          <AppPage></AppPage>
         </Route>
         <Route path="/vegan-lifestyle">
           <Navbar></Navbar>
@@ -25,6 +30,7 @@ export default function Routes() {
         </Route>
         <Route path="/contact">
           <Navbar></Navbar>
+          <Contact></Contact>
         </Route>
         <Route path="/">
           <WelcomePage></WelcomePage>

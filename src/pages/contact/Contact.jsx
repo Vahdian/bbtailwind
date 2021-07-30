@@ -1,0 +1,41 @@
+import React from "react";
+import myvood from "../../assets/images/voodgreytext.png";
+
+export default function Contact() {
+  return (
+    <div className="w-full h-screen flex flex-col justify-center items-center p-5">
+      <h1 className="text-4xl  sm:text-8xl text-center font-bold text-gray-600">
+        GET IN TOUCH WITH US!
+      </h1>
+      <form className="flex flex-col p-8 rounded-md relative sm:w-1/4">
+        <div className="flex justify-center items-center p-2">
+          <img src={myvood} className="w-14" alt="myVood" />
+        </div>
+        <input
+          type="text"
+          id="name"
+          placeholder="Name"
+          className="text-center p-2 border border-black m-2"
+        />
+        <input
+          type="text"
+          id="email"
+          placeholder="E-mail"
+          className=" text-center p-2 border border-black m-2"
+        />
+        <input
+          type="text"
+          id="contact"
+          placeholder="Hey! I'd like to..."
+          className="text-center p-2 pb-6 border border-black m-2"
+        />
+        <input
+          type="submit"
+          id="submit"
+          value="Send"
+          className="p-2 border border-black m-2"
+        />
+      </form>
+    </div>
+  );
+}
