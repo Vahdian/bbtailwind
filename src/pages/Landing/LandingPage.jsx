@@ -7,9 +7,9 @@ import "./LandingPage.css";
 
 export default function LandingPage() {
   return (
-    <div className="flex justify-center items-center flex-col animation">
-      <h1 className="sm:text-9xl text-gray-600 sm:w-4/6 mt-48 sm:mt-60 text-center text-6xl font-bold p-10 relative">
-        WELCOME TO MY VOOD<span className="text-yellow-400">.</span>
+    <div className="flex justify-center items-center flex-col animation landingPage">
+      <h1 className="sm:text-6xl text-gray-600 sm:w-4/6 mt-48 sm:mt-60 text-center text-6xl font-bold p-10 relative">
+        MY LIFE, MY JOURNEY, MY VOOD<span className="text-yellow-400">.</span>
       </h1>
       <div className="sm:relative absolute bottom-0 flex p-2">
         <a
@@ -31,7 +31,7 @@ export default function LandingPage() {
           <SiLinkedin color="#4B5563"></SiLinkedin>
         </a>
       </div>
-      <a className="fixed bottom-40" href="mailto:info@myvood.co.uk">
+      <a className="mt-20" href="mailto:info@myvood.co.uk">
         info@myvood.co.uk
       </a>
     </div>
