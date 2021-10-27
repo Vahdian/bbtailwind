@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.yellow{
+    color:#FFCC76;
+}
+.blue{
+    color: #00C2CB;
+}
+.green1{
+    color: #A4D68F;
+}
+.green2{
+    color:#75CBA8;
+}
+
+.yellow-bg{
+    background-color:#FFCC76;
+}
+.blue-bg{
+    background-color: #00C2CB;
+}
+.green1-bg{
+    background-color: #A4D68F;
+}
+.green2-bg{
+    background-color:#75CBA8;
+}
