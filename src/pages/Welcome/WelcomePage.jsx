@@ -1,6 +1,6 @@
 import React from "react";
 import myvood from "../../assets/images/voodgreytext.png";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { connect } from "react-redux";
 import { useForm } from "react-hook-form";
 import { addUserToDatabase } from "../../redux/userData/userData.actions";
@@ -14,8 +14,8 @@ const WelcomePage = ({ addUserToDatabase, user }) => {
   const {
     register,
     handleSubmit,
-    watch,
-    formState: { errors },
+    //watch,
+    //formState: { errors },
   } = useForm();
 
   const onSubmit = (data) => {

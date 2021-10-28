@@ -77,7 +77,7 @@ export default function LandingPage() {
       </section>
       <section className="text-center flex flex-col justify-center items-center animation landingPage min-h-screen min-w-screen p-6 section3">
         <div className="flex items-center flex-col mb-10 border-2 border-gray-100 rounded-xl py-6 px-3">
-          <img src="https://static.wixstatic.com/media/fb7254_0dd9432a370b47519ce2015b2a831773~mv2.png/v1/fill/w_205,h_205,al_c,q_85,usm_0.66_1.00_0.01/fb7254_0dd9432a370b47519ce2015b2a831773~mv2.webp" />
+          <img src="https://static.wixstatic.com/media/fb7254_0dd9432a370b47519ce2015b2a831773~mv2.png/v1/fill/w_205,h_205,al_c,q_85,usm_0.66_1.00_0.01/fb7254_0dd9432a370b47519ce2015b2a831773~mv2.webp" alt="vegan health"/>
           <h3 className="font-bold text-2xl green2">FOR HEALTH</h3>
           <p className="mt-2">
             Vegetarian diets protect against cardiovascular diseases, cardio
@@ -91,7 +91,7 @@ export default function LandingPage() {
           </p>
         </div>
         <div className="flex items-center flex-col mb-10 border-2 border-gray-100 rounded-xl py-6 px-3">
-          <img src="https://static.wixstatic.com/media/fb7254_2743e16fcad9468d812932f5f9981616~mv2.png/v1/fill/w_173,h_173,al_c,q_85,usm_0.66_1.00_0.01/fb7254_2743e16fcad9468d812932f5f9981616~mv2.webp" />
+          <img src="https://static.wixstatic.com/media/fb7254_2743e16fcad9468d812932f5f9981616~mv2.png/v1/fill/w_173,h_173,al_c,q_85,usm_0.66_1.00_0.01/fb7254_2743e16fcad9468d812932f5f9981616~mv2.webp" alt="vegan planet"/>
           <h3 className="font-bold text-2xl green2">FOR THE PLANET</h3>
           <p className="mt-2">
             With animal agriculture contributing to 18% of Greenhouse Gas
@@ -105,7 +105,7 @@ export default function LandingPage() {
           </p>
         </div>
         <div className="flex items-center flex-col mb-10 border-2 border-gray-100 rounded-xl py-6 px-3">
-          <img src="https://static.wixstatic.com/media/fb7254_0671a5d9c855468c95b5c0887d958b7b~mv2.png/v1/fill/w_181,h_180,al_c,q_85,usm_0.66_1.00_0.01/fb7254_0671a5d9c855468c95b5c0887d958b7b~mv2.webp" />
+          <img src="https://static.wixstatic.com/media/fb7254_0671a5d9c855468c95b5c0887d958b7b~mv2.png/v1/fill/w_181,h_180,al_c,q_85,usm_0.66_1.00_0.01/fb7254_0671a5d9c855468c95b5c0887d958b7b~mv2.webp" alt="vegan humans" />
           <h3 className="font-bold text-2xl green2">FOR HUMANS</h3>
           <p className="mt-2">
             In 2014 researchers found that reducing animal products in the human
@@ -117,7 +117,7 @@ export default function LandingPage() {
           </p>
         </div>
         <div className="flex items-center flex-col mb-10 border-2 border-gray-100 rounded-xl py-6 px-3">
-          <img src="https://static.wixstatic.com/media/fb7254_4f24e57377d94e1c93da28014df5bbd0~mv2.png/v1/fill/w_199,h_199,al_c,q_85,usm_0.66_1.00_0.01/fb7254_4f24e57377d94e1c93da28014df5bbd0~mv2.webp" />
+          <img src="https://static.wixstatic.com/media/fb7254_4f24e57377d94e1c93da28014df5bbd0~mv2.png/v1/fill/w_199,h_199,al_c,q_85,usm_0.66_1.00_0.01/fb7254_4f24e57377d94e1c93da28014df5bbd0~mv2.webp" alt="vegan animals" />
           <h3 className="font-bold text-2xl green2">FOR ANIMALS</h3>
           <p className="mt-2">
             Veganism promotes biodiversity. Not only farm animals suffer at the
@@ -133,7 +133,7 @@ export default function LandingPage() {
           </p>
         </div>
         <div className="flex items-center flex-col mb-10 border-2 border-gray-100 rounded-xl py-6 px-3">
-          <img src="https://static.wixstatic.com/media/fb7254_21da0cebd0bf4b9bbccf56931f2c7ca4~mv2.png/v1/fill/w_168,h_168,al_c,q_85,usm_0.66_1.00_0.01/fb7254_21da0cebd0bf4b9bbccf56931f2c7ca4~mv2.webp" />
+          <img src="https://static.wixstatic.com/media/fb7254_21da0cebd0bf4b9bbccf56931f2c7ca4~mv2.png/v1/fill/w_168,h_168,al_c,q_85,usm_0.66_1.00_0.01/fb7254_21da0cebd0bf4b9bbccf56931f2c7ca4~mv2.webp" alt="vegan world"/>
           <h3 className="font-bold text-2xl green2">FOR THE FUTURE</h3>
           <p className="mt-2">
             Food (and land) security is becoming a major issue. The United

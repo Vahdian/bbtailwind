@@ -9,7 +9,7 @@ export default function AppPage() {
         </h1>
         <img
           className="h-40"
-          src="https://www.seekpng.com/png/detail/34-349265_app-store-google-play-svg.png"
+          src="https://www.seekpng.com/png/detail/34-349265_app-store-google-play-svg.png" alt="apple store"
         ></img>
       </div>
     </div>

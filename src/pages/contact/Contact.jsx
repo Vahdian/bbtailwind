@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import { addUserToDatabase } from "../../redux/userData/userData.actions";
 import { useForm } from "react-hook-form";
@@ -9,8 +9,8 @@ const Contact = ({ addUserToDatabase, user }) => {
   const {
     register,
     handleSubmit,
-    watch,
-    formState: { errors },
+    //watch,
+    //formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
     console.log(data);
