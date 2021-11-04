@@ -35,6 +35,9 @@ export default function Navbar() {
           <NavLink to="/app" className=" hover:text-yellow-500">
             APP
           </NavLink>
+          <NavLink to="/transition-plans" className=" hover:text-yellow-500">
+            TRANSITION PLANS
+          </NavLink>
           <NavLink to="/vegan-lifestyle" className=" hover:text-yellow-500">
             VEGAN LIFESTYLE
           </NavLink>
@@ -84,6 +87,13 @@ export default function Navbar() {
           onClick={() => openMenu()}
         >
           APP<span className="text-yellow-400">.</span>
+        </NavLink>
+        <NavLink
+          to="/transition-plans"
+          className=" hover:text-yellow-500"
+          onClick={() => openMenu()}
+        >
+          TRANSITION PLANS<span className="text-yellow-400">.</span>
         </NavLink>
         <NavLink
           to="/vegan-lifestyle"
