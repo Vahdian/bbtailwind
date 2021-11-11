@@ -8,6 +8,10 @@ import AppPage from "../../pages/appPage/AppPage";
 import Contact from "../../pages/contact/Contact";
 import AboutUs from "../../pages/aboutUs/AboutUs";
 import TransitionPlans from "../../pages/transitionPlans/TransitionPlans";
+import WestAfrican from "../../pages/transitionPlans/plans/WestAfrican/WestAfrican";
+import SouthAsian from "../../pages/transitionPlans/plans/SouthAsian/SouthAsian";
+import Mediterranean from "../../pages/transitionPlans/plans/Mediterranean/Mediterranean";
+import World from "../../pages/transitionPlans/plans/World/World";
 
 export default function Routes() {
   return (
@@ -24,6 +28,22 @@ export default function Routes() {
         <Route path="/transition-plans">
           <Navbar></Navbar>
           <TransitionPlans></TransitionPlans>
+        </Route>
+        <Route path="/west-african-plan">
+          <Navbar></Navbar>
+         <WestAfrican></WestAfrican>
+         </Route>
+         <Route path="/south-asian-plan">
+          <Navbar></Navbar>
+         <SouthAsian></SouthAsian>
+        </Route>
+        <Route path="/world-plan">
+          <Navbar></Navbar>
+         <World></World>
+        </Route>
+        <Route path="/mediterranean-plan">
+          <Navbar></Navbar>
+         <Mediterranean></Mediterranean>
         </Route>
         <Route path="/app">
           <Navbar></Navbar>

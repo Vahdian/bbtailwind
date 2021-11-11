@@ -1,6 +1,7 @@
 import React from "react";
 import "./TransitionPlans.css"
 import myvood from "../../assets/images/myvood.png"
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 export default function TransitionPlans() {
   return (
     <div>
@@ -9,8 +10,9 @@ export default function TransitionPlans() {
           <p className="text-xs font-bold ">MY JOURNEY, MY LIFE, MY VOOD</p>
           <h1 className="text-4xl">Transition plans</h1>
         </div>
-        <div className="yellow-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left">
-        <img
+               
+        <Link className="yellow-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left" to="/west-african-plan">
+            <img
             src={myvood}
             className="transition--image"
           />
@@ -21,8 +23,9 @@ export default function TransitionPlans() {
             your collection.
           </p>
           </div>
-        </div>
-        <div className="blue-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left">
+          </Link>
+ 
+        <Link className="blue-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left" to="/south-asian-plan">
         <img
             src={myvood}
             className="transition--image"
@@ -34,8 +37,8 @@ export default function TransitionPlans() {
             your collection.
           </p>
           </div>
-        </div>
-        <div className="green1-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left">
+        </Link>
+        <Link className="green1-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left" to="/mediterranean-plan">
         <img
             src={myvood}
             className="transition--image"
@@ -47,8 +50,8 @@ export default function TransitionPlans() {
             your collection.
           </p>
           </div>
-        </div>
-        <div className="green2-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left">
+        </Link>
+        <Link className="green2-bg w-full text-center text-white p-10 m-2 mt-4 mx-4 flex flex-row items-center text-left" to="/world-plan">
         <img
             src={myvood}
             className="transition--image"
@@ -60,7 +63,7 @@ export default function TransitionPlans() {
             your collection.
           </p>
           </div>
-        </div>
+        </Link>
       </section>
     </div>
   );
