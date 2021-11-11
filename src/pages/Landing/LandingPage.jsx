@@ -49,34 +49,34 @@ export default function LandingPage() {
         </Link>
       </section>
       <section className="flex flex-wrap animation landingPage min-h-screen min-w-screen section2">
-        <div className="yellow-bg w-full text-center text-white p-10 m-2 mt-4 mx-4">
+        <Link className="yellow-bg w-full text-center text-white p-10 m-2 mt-4 mx-4" to="/west-african-plan">
           <h1 className="font-bold">WEST AFRICAN PLAN</h1>
           <p>
             Make this yours. Add images, text and links, or connect data from
             your collection.
           </p>
-        </div>
-        <div className="blue-bg w-full text-center text-white p-10 m-2 mx-4">
+        </Link>
+        <Link className="blue-bg w-full text-center text-white p-10 m-2 mx-4" to="/south-asian-plan">
           <h1 className="font-bold">SOUTH ASIAN PLAN</h1>
           <p>
             Make this yours. Add images, text and links, or connect data from
             your collection.
           </p>
-        </div>
-        <div className="green1-bg w-full text-center text-white p-10 m-2 mx-4">
+        </Link>
+        <Link className="green1-bg w-full text-center text-white p-10 m-2 mx-4" to="/mediterranean-plan">
           <h1 className="font-bold">MEDITERRANEAN</h1>
           <p>
             Make this yours. Add images, text and links, or connect data from
             your collection.
           </p>
-        </div>
-        <div className="green2-bg w-full text-center text-white p-10 m-2 mb-4 mx-4">
+        </Link>
+        <Link className="green2-bg w-full text-center text-white p-10 m-2 mb-4 mx-4" to="/world-plan">
           <h1 className="font-bold">WORLD FOOD PLAN</h1>
           <p>
             Make this yours. Add images, text and links, or connect data from
             your collection.
           </p>
-        </div>
+        </Link>
       </section>
       <section className="text-center flex flex-col justify-center items-center animation landingPage min-h-screen min-w-screen p-6 section3">
         <div className="flex items-center flex-col mb-10 border-2 border-gray-100 rounded-xl py-6 px-3">
@@ -170,36 +170,36 @@ export default function LandingPage() {
         </div>
       </section>
       <section className="flex flex-wrap animation landingPage min-h-screen min-w-screen section2 mb-16">
-        <div className="yellow-bg w-full text-center text-white p-10 m-2 mt-4 mx-4">
+        <Link className="yellow-bg w-full text-center text-white p-10 m-2 mt-4 mx-4" to="/about-us">
           <h1 className="font-bold">ABOUT US</h1>
           <p>
             We want to be part of the change and empower others to successfully
             transition to a healthy and sustainable plant-based diet. Learn more
             about MyVood here!
           </p>
-        </div>
-        <div className="blue-bg w-full text-center text-white p-10 m-2 mx-4">
+        </Link>
+        <Link className="blue-bg w-full text-center text-white p-10 m-2 mx-4" to="/transition-plans">
           <h1 className="font-bold">TRANSITION PLANS</h1>
           <p>
             Have you checked out our transition plans? We have four plans for
             you to choose from which include a diverse range of delicious dishes
             from around the world!
           </p>
-        </div>
-        <div className="green1-bg w-full text-center text-white p-10 m-2 mx-4">
+        </Link>
+        <Link className="green1-bg w-full text-center text-white p-10 m-2 mx-4" to="/blog">
           <h1 className="font-bold">BLOG</h1>
           <p>
             Check out our articles on topics in Veganism and for more ideas on
             how to successfully transition to a vegan diet!
           </p>
-        </div>
-        <div className="green2-bg w-full text-center text-white p-10 m-2 mb-4 mx-4">
-          <h1 className="font-bold">GET IN TOUCH</h1>
+        </Link>
+        <Link className="green2-bg w-full text-center text-white p-10 m-2 mb-4 mx-4" to="/contact">
+          <h1 className="font-bold">GET IN TOUCH</h1> 
           <p>
             We would love to hear from you; we invite our users to engage with
             us and share their feedback.
           </p>
-        </div>
+        </Link>
       </section>
       <section className="relative w-full">
         <div className="sm:relative absolute bottom-0 left-0 right-0 mr-0 ml-0 flex p-2 items-center justify-center">

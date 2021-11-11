@@ -12,6 +12,7 @@ import WestAfrican from "../../pages/transitionPlans/plans/WestAfrican/WestAfric
 import SouthAsian from "../../pages/transitionPlans/plans/SouthAsian/SouthAsian";
 import Mediterranean from "../../pages/transitionPlans/plans/Mediterranean/Mediterranean";
 import World from "../../pages/transitionPlans/plans/World/World";
+import Blog from "../../pages/blog/Blog";
 
 export default function Routes() {
   return (
@@ -24,6 +25,10 @@ export default function Routes() {
         <Route path="/about-us">
           <Navbar></Navbar>
           <AboutUs></AboutUs>
+        </Route>
+        <Route path="/blog">
+          <Navbar></Navbar>
+          <Blog></Blog>
         </Route>
         <Route path="/transition-plans">
           <Navbar></Navbar>

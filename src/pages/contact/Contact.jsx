@@ -18,12 +18,12 @@ const Contact = ({ addUserToDatabase, user }) => {
   };
 
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center p-5">
+    <div className="w-full h-screen flex flex-col justify-center items-center p-8">
       <h1 className="text-4xl  sm:text-8xl text-center font-bold text-gray-600">
         GET IN TOUCH WITH US!
       </h1>
       <form
-        className="flex flex-col p-8 rounded-md relative sm:w-1/4"
+        className="flex flex-col p-8 rounded-md relative sm:w-1/4 w-full"
         onSubmit={handleSubmit(onSubmit)}
       >
         <div className="flex justify-center items-center p-2">

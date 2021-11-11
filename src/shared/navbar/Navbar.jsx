@@ -46,7 +46,7 @@ export default function Navbar() {
           </NavLink>
         </div>
       </div>
-      <div className="flex sm:hidden absolute right-0">
+      <div className="flex sm:hidden absolute right-0 top-0">
         <img
           src={menu}
           className="p-4 h-16 w-16 z-50"

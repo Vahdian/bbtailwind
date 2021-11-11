@@ -9,8 +9,8 @@ import { SiLinkedin } from "react-icons/si";
 export default function AboutUs() {
   return (
     <div>
-      <div className="px-10 sm:px-40">
-        <h1 className="sm:text-4xl text-2xl text-center sm:text-left mt-4 font-bold sm:mt-40 text-gray-600">
+      <div className="px-10 sm:px-40 mt-16">
+        <h1 className="sm:text-4xl text-4xl text-left mt-4 font-bold sm:mt-40 text-gray-600">
           WE ARE MYVOOD<span className="text-yellow-400">.</span>
         </h1>
         <p className="font-bold text-gray-600 pt-4">
