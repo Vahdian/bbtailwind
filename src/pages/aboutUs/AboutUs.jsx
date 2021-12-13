@@ -83,7 +83,7 @@ export default function AboutUs() {
         <h1 className="font-bold mt-4 mb-4 text-center">
           HOLISTIC. INCLUSIVE. SUPPORTIVE.
         </h1>
-        <p className="text-xs text-center">
+        <p className="text-ms text-center">
           MyVood is intended to be a holistic, inclusive and supportive platform
           that provides individuals interested in transitioning to a plant based
           diet with information on what constitutes a healthy, sustainable and
