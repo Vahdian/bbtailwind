@@ -3,28 +3,13 @@
 @tailwind utilities;
 
 
-.yellow{
-    color:#FFCC76;
+.brown{
+    color:#542b11;
 }
-.blue{
-    color: #00C2CB;
-}
-.green1{
-    color: #A4D68F;
-}
-.green2{
-    color:#75CBA8;
+.custom-yellow{
+    color: #ffbd59;
 }
 
-.yellow-bg{
-    background-color:#FFCC76;
-}
-.blue-bg{
-    background-color: #00C2CB;
-}
-.green1-bg{
-    background-color: #A4D68F;
-}
-.green2-bg{
-    background-color:#75CBA8;
+.brown-bg{
+    background-color:#542b11;
 }

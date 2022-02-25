@@ -1,0 +1,44 @@
+$yellow: #ffbd59;
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    .logoENGwhite{
+        height: 3rem;
+        padding: 2rem;
+    }
+
+    &_1 {
+        align-items: center;
+        display: flex;
+        align-items: center;
+
+    }
+
+    &_2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1rem;
+
+        .navlink {
+            padding: 1rem;
+            text-decoration: none;
+            &:hover{
+                color: $yellow;
+                font-weight: 600;
+            }
+         }
+    }
+
+    .Spanish,
+    .English {
+        height: 2rem;
+        padding: 1rem;
+    }
+
+}
