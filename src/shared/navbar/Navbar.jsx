@@ -8,7 +8,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar flex align-center bg-black justify-between pl-5 px-20">
+      <nav className="navbar flex align-center bg-black justify-center sm:justify-between px-20">
         <div className="navbar_1 items-center flex">
           <img
             src={logo}
@@ -16,7 +16,7 @@ export default function Navbar() {
             className="logoENGwhite h-12 m-4"
           />
         </div>
-        <div className="navbar_2 flex items-center justify-around p-4">
+        <div className="navbar_2 flex items-center sm:justify-around p-4 hidden sm:flex">
           <NavLink
             to="/home"
             className="navlink p-4 decoration-none text-white hover:text-custom-yellow"

@@ -1,1 +1,4 @@
 
+.hollow{
+    filter: drop-shadow(0 20px 13px rgb(83, 83, 83)) drop-shadow(0 8px 5px rgba(255, 255, 255, 0.3));
+}
